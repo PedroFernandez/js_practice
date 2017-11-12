@@ -6,20 +6,22 @@
     <body>
     <h2>THIS IS A TEST PAGE FOR JAVASCRIPT PRACTICE!</h2>
         <script>
-            var width = 100;
-            function setWidth() {
-                var width = 50;
-                console.log(width);
+            const key = 'abc123';
+            let points = 50;
+            let winner = false;
+
+            if (points > 40) {
+                console.log('You are the winner!!!');
+                let winner = true;
             }
 
-            var age = 100;
-            if (age > 12) {
-                const dogYears = age * 7;
-                console.log('My dog age is ${dogYears}');
+//            const key = 'fgh456';
+
+            const person = {
+                name: 'Pit',
+                age: 26
             }
 
-            let height = 200;
-            const key = 80;
         </script>
     </body>
 </html>
